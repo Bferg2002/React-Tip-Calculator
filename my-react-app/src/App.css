@@ -1,0 +1,30 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* centers everything horizontally */
+  
+}
+
+#calculator {
+  display: flex;
+    flex-direction: column; 
+
+  justify-content: center;
+  align-items: center;
+
+  height: 300px;
+  width: 600px;
+  border: 1px solid black;
+
+}
+
+#results{
+  display: flex;
+  flex-direction: column; /* stack paragraphs */
+  
+}
+
+.tip-text {
+  font-size: 20px;
+  margin: 0;
+}
